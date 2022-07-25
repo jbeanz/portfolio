@@ -57,7 +57,6 @@ function App() {
         <h1 className="portfolio">TOP SKILLS</h1>
         <p>tech stack</p>
       </StyledRow>
-
       <section className="curve-divider">
         <StyledRow background={"light"}>
           <div className="flex-container">
@@ -112,11 +111,14 @@ function App() {
           <h1 className="portfolio">AWARDS</h1>
           <p>won over $10,000 in awards and grants</p>
           <Col>
-            <img
-              src="./images/award-icon.png"
-              alt="award-icon"
-              style={{ width: "5rem" }}
-            />
+            <Col>
+              <img
+                src="./images/award-icon.png"
+                alt="award-icon"
+                style={{ width: "5rem", margin: "1rem" }}
+              />
+            </Col>
+
             <Button
               href="https://static1.squarespace.com/static/5bb4950851f4d40c36d28c34/t/5bbb2e1a8165f56086f6cc27/1538993691251/JeainnyKim_CV2018.pdf"
               target="_blank"
@@ -141,6 +143,7 @@ function App() {
           </svg>
         </div>
       </section>
+      <StyledRow background="peach"></StyledRow>
     </div>
   );
 }

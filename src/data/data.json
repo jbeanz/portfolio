@@ -28,11 +28,11 @@
     },
     {
         "id": 3,
-        "name": "Dune Air (Personal Project)",
+        "name": "Dune Air (in progress)",
         "desc": "Dune Air lets you book flights to different planets from real airports on Earth, pulling airport codes from RapidAPI. Built from scratch.",
-        "url": "#",
+        "url": "https://dune-air.vercel.app/",
         "github": "https://github.com/jbeanz/kayak",
-        "img": "images/dashboard.png",
+        "img": "images/dune-air.png",
         "tech": [
             "react",
             "typescript",
