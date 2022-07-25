@@ -1,0 +1,143 @@
+.app {
+  position: relative;
+}
+body {
+  margin: 0;
+  color: white;
+  background: #fcc4c4;
+  overflow-x: hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 5rem;
+}
+
+.red {
+  background: red;
+}
+
+.gray {
+  background: #483737;
+}
+/* 
+.bubble::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  background: yellow;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  z-index: 0;
+} */
+
+.spacer {
+  aspect-ratio: 940/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spacer-top {
+  aspect-ratio: 1000/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./svg/waves2.svg');
+}
+.layer0 {
+  background-image: url('./svg/waves-header3.svg');
+}
+.flip {
+  transform: rotate(180deg);
+}
+
+/* CURVE DIVIDER */
+.curve-divider {
+  position: relative;
+  background: #483737;
+}
+.light {
+  background: #fff7e9;
+}
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 181px;
+}
+
+.curve .shape-fill {
+  fill: #483737;
+}
+
+/* CURVE2 DIVIDER */
+
+.curve2-divider {
+  position: relative;
+  background: #fff7e9;
+}
+
+.curve2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 181px;
+}
+
+.curve2 .shape-fill {
+  fill: #fff7e9;
+}
+/* SPLIT DIVIDER */
+.split-divider {
+  position: relative;
+}
+.split {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.split svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.split .shape-fill {
+  fill: #fff7e9;
+}
