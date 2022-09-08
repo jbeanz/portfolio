@@ -40,7 +40,7 @@ const VerticalContainer = styled(FlexContainer)`
 function App() {
   return (
     <div className="app">
-      <p>PUSH THEN PR TEST MSG </p>
+      <p>PUSH THEN PR MSG </p>
       <div className="spacer-top layer0"></div>
       <StyledRow background={"peach"}>
         <h1 className="nice-curves">JBEANZ</h1>
