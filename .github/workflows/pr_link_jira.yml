@@ -1,4 +1,4 @@
-name: PR update
+name: Link Jira Ticket To PR
 on:
   pull_request:
     types: [opened]
@@ -17,6 +17,6 @@ jobs:
           title-template: '%headbranch%: '
           body-template: |
             Jira issue: %headbranch%
-            ---
+          [Link to %headbranch%](https://dedhamgroup.atlassian.net/browse/%headbranch%)
           body-update-action: 'prefix'
-          body-uppercase-base-match: false
+          body-uppercase-base-match: false 
