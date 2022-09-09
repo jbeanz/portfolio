@@ -1,7 +1,5 @@
 #### What does this PR do?
 
-TEST
-
 #### Where should the reviewer start? (with links, if appropriate)
 
 #### How should this be manually tested?
